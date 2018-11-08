@@ -2,7 +2,7 @@
 
   <!-- The argument for specifying robot type -->
   <arg name="robot_name" default="vs087" />
-  <arg name="robot_options" default="vs087" />
+  <arg name="robot_options" default="vs087_and_robotiq" />
 
   <!-- The robot config argument -->
   <arg name="robot_config" value="$(arg robot_name)_config" />
